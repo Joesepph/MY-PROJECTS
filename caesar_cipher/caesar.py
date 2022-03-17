@@ -32,7 +32,7 @@ def decrypt(etext, s):
 
             result = result + alpha[letter_index]
         elif letter in alpha_lower:
-            letter_index = (alpha_lower.find(letter) + s) % len(alpha_lower)
+            letter_index = (alpha_lower.find(letter) - s) % len(alpha_lower)
 
             result = result + alpha_lower[letter_index]
         else:
