@@ -86,7 +86,7 @@ while True:
         print("Give a proper value!")
 
     print("")
-    end = input("Do you want to encrypt/decrypt again? (y/n) ").lower()
+    end = input("Do you want to encrypt/decrypt/brute force again? (y/n) ").lower()
 
     if end == "y":
         print("\n")
