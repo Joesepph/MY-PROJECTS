@@ -4,8 +4,8 @@ def encrypt(text, s):
     alpha = string.ascii_uppercase
     alpha_lower = string.ascii_lowercase
 
-    result = ""
-    
+    result =3 ""
+
     for letter in text:
         if letter in alpha:
             letter_index = (alpha.find(letter) + s) % len(alpha)
