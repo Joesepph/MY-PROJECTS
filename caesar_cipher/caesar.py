@@ -4,7 +4,7 @@ def encrypt(text, s):
     alpha = string.ascii_uppercase
     alpha_lower = string.ascii_lowercase
 
-    result =3 ""
+    result = ""
 
     for letter in text:
         if letter in alpha:
